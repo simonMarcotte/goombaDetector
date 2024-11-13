@@ -1,0 +1,15 @@
+path: /Users/simon/CodingProjects/goombaDetector/goomba spotting.v1i.yolov8
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['buzzy beetle', 'goomba']
+
+roboflow:
+  workspace: rodrigo-aguilar
+  project: goomba-spotting
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rodrigo-aguilar/goomba-spotting/dataset/1
